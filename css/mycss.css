@@ -1,0 +1,154 @@
+html, body, div, h1, h2, h3, h4, h5, h6, img, li, ul { padding:0; margin:0; }
+html { height:100% }
+*{margin:0;padding:0;}
+html,body{height:100%;}
+html p{ font-size:625%}
+li {
+    list-style: none;
+}
+img{border:none; margin:0; padding:0; vertical-align: top;max-width: 100%;}
+body {width:100%; height:100%; color:#292929;font-family:"Microsoft Yahei";}
+h1, h2, h3, h4, h5, h6, li, ul{text-align:left; text-indent:0; font-family:"Microsoft Yahei";}
+.swiper-container { width: 100%;height: 100%;text-align: center;background-size:100% 100%;max-width:740px;}
+.swiper-slide { width:100%; height:100%;
+    background-color: #0d78e5;}
+
+/*第五页开始*/
+
+.slide5_title {
+    margin-top: 1rem;
+    width: 100%;
+    position:relative;
+}
+
+.slide5_smallTilte {
+    width:45%;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+
+.slide5_list ul {
+    margin-top: 0.5rem;
+}
+
+.slide5_list ul li {
+    width:90%;
+    margin:0 auto;
+    margin-bottom: 1rem;
+}
+
+.slide5_img {
+    width:50%;
+    margin: 0 auto;
+}
+
+.array {
+    width: 20px;
+    height: 15px;
+    position:absolute;
+    bottom:5%;
+    z-index: 99;
+    animation:start 1s infinite ease-in-out;
+    left: 50%;
+    margin-left: -10px;
+}
+
+@keyframes start {
+    0%,30% {opacity:0;transform: translate(0,10px);}
+    60%{opacity:1;transform:translate(0,0);}
+    100%{opacity: 0;transform: translate(0,-8px)}
+}
+
+/*第六页*/
+
+.slide6_title {
+    margin-top: 1rem;
+    width: 100%;
+    position:relative;
+}
+
+.slide6_list01,.slide6_list02,.slide6_list03 {
+    width: 90%;
+    margin:0 auto;
+}
+
+.slide6 .slide6_list01 {
+    margin-top: 1rem;
+}
+
+.slide6_aircraft01,.slide6_aircraft02,.slide6_aircraft03 {
+    width: 95%;
+}
+
+.slide6_aircraft01 {
+    float: right;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.slide6_aircraft02 {
+    float: left;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.slide6_aircraft03 {
+    float: right;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+}
+
+/*第七页*/
+
+.slide7_title {
+    margin-top: 1rem;
+    width: 100%;
+    position:relative;
+}
+
+.slide7_square {
+    margin:0 auto;
+    margin-top: 0.8rem;
+    position:relative;
+    width: 50px;
+    height: 50px;
+}
+
+.slide7_square .slide7_square_img {
+    width: 100%;
+    height: 100%;
+    animation:yuan 10s infinite linear ;
+}
+
+.slide7_square .slide7_square_numbel {
+    position:absolute;
+    width: 100%;
+    bottom: 30%;
+    left: 0;
+    text-align: center;
+    font-size:16px;
+    color:#0d78e5;
+    z-index: 2;
+    font-weight:900;
+}
+
+/*动画*/
+
+@keyframes yuan {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*第八页*/
+.slide8 {
+    position: relative;
+}
+
+.slide8_star {
+    position:absolute;
+    bottom:0;
+}
